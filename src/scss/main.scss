@@ -1,0 +1,35 @@
+body {
+    background: #222;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .center {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.hero-text {
+    font-family: 'Overpass Mono', monospace;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.et-white {color: #f1f1f1}
+.et-green {color: #00ff00}
+.et-blue {color: #007fff}
+.et-orange {color: #ff9919}
+.et-gray {color: #797979}
+
+.z-layer:not(:first-child) {
+    filter: brightness(0.5);
+ }
